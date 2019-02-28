@@ -2,11 +2,11 @@
 
 >开发者工具请打开不校验合法域名，真机调试时请打开调试，真机无法绘制多半是微信安全域名的问题。
 
-新增更新[图片透明度](https://github.com/AfanSama/easy-canvas#image图片)
+新增更新[图片透明度](https://github.com/199107/Mini-Program.git#image图片)
 
-新增功能[矩形、圆角矩形绘制阴影效果](https://github.com/AfanSama/easy-canvas#rect-矩形线条)
+新增功能[矩形、圆角矩形绘制阴影效果](https://github.com/199107/Mini-Program.git#rect-矩形线条)
 
-新增 [easy-canvas](https://github.com/AfanSama/easy-canvas)。之后同步更新。
+新增 [easy-canvas](https://github.com/199107/Mini-Program.git)。之后同步更新。
 
 做微信小程序中最好用的 `canvas` 绘图组件之一。
 
@@ -29,7 +29,7 @@
 ## 体验
 
 ```
-git clone https://github.com/AfanSama/easy-canvas
+git clone https://github.com/199107/Mini-Program.git
 ```
 想在手机上使用配置自己的 `appid` 即可。
 
@@ -39,7 +39,7 @@ git clone https://github.com/AfanSama/easy-canvas
 
 ## 使用
 
-- `git clone https://github.com/AfanSama/easy-canvas` 到本地
+- `git clone https://github.com/199107/Mini-Program.git` 到本地
 - 把 `components` 中的 `easy-canvas` 拷贝到自己项目下。
 - 在使用页面注册组件
   ```json
@@ -54,7 +54,7 @@ git clone https://github.com/AfanSama/easy-canvas
   <easy-canvas painting="{{painting}}" bind:getImage="eventGetImage"/>
   ```
   `painting` 是需要传入的 `json`。 `getImage` 方法是绘图完成之后的回调函数，在 `event.detail` 中返回绘制完成的图片地址。
-- 当前栗子中的 `painting` 简单展示一下。详细配置请看 [API](https://github.com/AfanSama/easy-canvas#api)
+- 当前栗子中的 `painting` 简单展示一下。详细配置请看 [API](https://github.com/199107/Mini-Program.git#api)
 
 
   <details><summary>painting（点击展开）</summary><br>
@@ -307,10 +307,10 @@ shadowColor|阴影颜色|
     wx.hideLoading()
     ```
 ## 他们都在用 esay-canvas
-<img src="https://github.com/AfanSama/esay-canvas/blob/master/images/qrcode.jpg" width=150 height=150 />
+<img src="https://github.com/199107/Mini-Program.git/blob/master/images/qrcode.jpg" width=150 height=150 />
 
 ## TIPS
 
-如果有什么疑问，欢迎 `issues`。 如果觉得不错，能不能送我小 ✨ ✨ ，让我有更多的动力。
+
 
 
