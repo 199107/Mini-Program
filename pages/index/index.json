@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "easy-canvas 普通绘制",
+  "usingComponents": {
+    "easy-canva": "/components/easy-canva/easy-canva"
+  }
+}
